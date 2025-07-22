@@ -44,6 +44,8 @@ def handle_global_command(cmd):
         print(f"Level: {level}, XP: {experience}/100")
     elif cmd == "!help":
         print("Available commands: !hotbar, !inventory, !level, !help")
+    elif cmd == "!hunger":
+        print(f"Hunger: {hunger}")
     else:
         print("Unknown command.")
 

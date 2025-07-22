@@ -49,3 +49,5 @@ def intro_sequence():
     npc_speak("Willow", "I'm going to give you a sword, which I hope can help get you started.")
 
     add_item_to_inventory("Willow's Rusty Blade")
+
+    npc_speak("Willow", "Nice! This should get you set up.")
