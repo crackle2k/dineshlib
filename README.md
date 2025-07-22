@@ -1,4 +1,4 @@
-![Banner](https://imgur.com/a/x8PZTc9)
+![Banner](https://i.imgur.com/dFmBXH4.png)
 -
 # Crimson Terminal
 
