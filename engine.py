@@ -6,10 +6,11 @@ from colorama import init, Fore, Style
 
 # Crimson Terminal
 
-version = '1.0.0'
 health = 100
 experience = 0
 level = 0
+hunger = 100
+gold = 0
 
 def gain_experience(amount):
     global experience, level
