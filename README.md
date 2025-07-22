@@ -1,3 +1,5 @@
+![Banner](https://imgur.com/a/x8PZTc9)
+-
 # Crimson Terminal
 
 A text-based RPG set inside a mysterious terminal interface.  
