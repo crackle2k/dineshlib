@@ -12,6 +12,7 @@ level = 0
 hunger = 100
 gold = 0
 mana = 100
+defense = 0
 
 def gain_experience(amount):
     global experience, level
