@@ -2,6 +2,9 @@ from sequences.intro import intro_sequence
 from sequences.battle import battle_sequence
 import tkinter as tk
 
+# So I seemed to have messed up
+# Currently trying to move everything from using the powershell terminal to my own custom GUI
+# Just revert if you get confused
 
 def process_command(event=None):
     cmd = input_entry.get().strip()
