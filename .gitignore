@@ -1,4 +1,9 @@
-__pycache__/
-.venv/
-*.pyc
+target/
+weather/target
 .env
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
