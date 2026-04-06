@@ -1,1 +1,0 @@
-{"rustc":5991146251708444534,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[12347024475581975995,"build_script_build",false,12813217703732677501]],"local":[{"RerunIfChanged":{"output":"x86_64-pc-windows-gnu\\release\\build\\zmij-5becf8f247b68d42\\output","paths":["build.rs"]}}],"rustflags":[],"config":0,"compile_kind":0}
