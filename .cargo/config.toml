@@ -1,0 +1,7 @@
+# Use the GNU target to avoid the Git-for-Windows `link.exe` shadowing MSVC's linker.
+# gcc (from msys64) is used for linking instead, which is unaffected by that collision.
+[build]
+target = "x86_64-pc-windows-gnu"
+
+[target.x86_64-pc-windows-gnu]
+linker = "gcc"
