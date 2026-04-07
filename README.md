@@ -11,18 +11,10 @@ Prints tomorrow's weather forecast in your terminal. It auto-detects your locati
 **Example output**
 
 ```
-╔══════════════════════════════════════════╗
-║  Tomorrow's Weather — 2026-04-03      ║
-║  London, United Kingdom               ║
-╠══════════════════════════════════════════╣
-║  🌧️  Rain                               ║
-║                                          ║
-║  High  : 14.2       °C                  ║
-║  Low   : 8.1        °C                  ║
-║  Rain  : 4.5        mm                  ║
-║  Wind  : 22.3       km/h                ║
-╚══════════════════════════════════════════╝
+12
 ```
+
+Prints tomorrow's average temperature in °C as a plain integer (`(max + min) / 2`).
 
 **Build & run**
 
