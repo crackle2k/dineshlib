@@ -1,6 +1,6 @@
 # dineshlib
 
-A collection of small Rust utilities.
+A collection of small CLI utilities (Rust and Ruby).
 
 ## Tools
 
@@ -44,3 +44,33 @@ cargo run --release
 
 - [ip-api.com](http://ip-api.com) — IP geolocation
 - [Open-Meteo](https://open-meteo.com) — weather forecast
+
+---
+
+### `capitals`
+
+A quiz that prompts you with a capital city; you type the country.
+
+**Example output**
+
+```
+Capitals Quiz — name the country. Type 'quit' to stop.
+
+Tokyo: Japan
+Correct!
+Paris: Germany
+Wrong — France
+Ottawa: Canada
+Correct!
+
+2/3
+```
+
+**Build & run**
+
+```sh
+cd capitals
+cargo run --release
+```
+
+No external crates required — stdlib only.

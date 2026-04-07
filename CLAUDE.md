@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository overview
 
-`dineshlib` is a collection of small Rust CLI utilities. Each tool lives in its own subdirectory with its own `Cargo.toml` (independent crate, not a workspace).
+`dineshlib` is a collection of small CLI utilities. Each tool lives in its own subdirectory with its own `Cargo.toml`.
 
 ## Commands
 
-All commands are run from inside the tool's subdirectory (e.g., `cd weather`).
+### Rust tools (run from inside the tool's subdirectory, e.g., `cd weather`)
 
 ```sh
 cargo build --release   # build
@@ -30,3 +30,9 @@ Prints tomorrow's average temperature (integer °C) to stdout. Pipeline:
 Both APIs are free and require no key. The binary exits with code 1 on any network or data error, printing to stderr.
 
 Note: the README shows a richer boxed output format; the current `main.rs` only prints the raw average integer — the display layer is not yet implemented.
+
+### `capitals`
+
+A quiz that prompts with a capital city and expects the country name. No external crates required — stdlib only.
+
+Run: `cargo run --release` (from inside `capitals/`)

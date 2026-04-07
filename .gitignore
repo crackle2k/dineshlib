@@ -1,9 +1,16 @@
-target/
-weather/target
+# Rust build artifacts — never commit these
+**/target/
+**/*.d
+
+# Environment / secrets
 .env
+
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# OS
 .DS_Store
 Thumbs.db
