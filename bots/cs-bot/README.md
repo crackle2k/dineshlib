@@ -38,6 +38,10 @@ Use `/ping` in your test server. Keep the bot process running to answer commands
 
 The command is registered only in the configured test server. Run `deploy-commands` again after changing its definition; restarting the bot alone does not update registered commands. Registering `/ping` updates that command without deleting other commands.
 
+## CS Club meeting reminders
+
+The bot mentions the executive role in the club's configured Discord channel every Sunday at 11:00 a.m. and 7:50 p.m. for the 8:00 p.m. meeting. The schedule follows Toronto local time year-round. Keep the bot running at both reminder times. The bot needs permission to send messages in the channel and mention the role.
+
 ## Development
 
 - `src/index.js` handles Discord events and command replies.

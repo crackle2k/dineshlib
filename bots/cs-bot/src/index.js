@@ -1,11 +1,13 @@
 import { Client, Events, GatewayIntentBits, MessageFlags } from 'discord.js';
 import { requireEnv } from './config.js';
+import { startMeetingReminders } from './meeting-reminders.js';
 
 const token = requireEnv('DISCORD_TOKEN');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.once(Events.ClientReady, readyClient => {
   console.log(`Logged in as ${readyClient.user.tag}`);
+  startMeetingReminders(readyClient);
 });
 
 client.on(Events.InteractionCreate, async interaction => {

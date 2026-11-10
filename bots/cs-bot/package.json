@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",
     "deploy-commands": "node --env-file-if-exists=.env src/deploy-commands.js",
-    "check": "node --check src/index.js && node --check src/deploy-commands.js && node --check src/config.js"
+    "check": "node --check src/index.js && node --check src/deploy-commands.js && node --check src/config.js && node --check src/meeting-reminders.js"
   },
   "dependencies": {
     "discord.js": "^14.27.0"
